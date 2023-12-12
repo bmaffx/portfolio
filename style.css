@@ -1,0 +1,233 @@
+.container_conteudo{
+    background-color: #CEDEBD
+}
+
+.lista_nav {
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 1.7rem;
+
+}
+.link_item{
+    text-decoration: none;
+    color: black;
+    
+}
+    
+
+.item_lista{
+    background-color:#9EB384;
+    width: 15rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.2rem;
+}
+
+.item_lista:hover{
+    background-color:#CEDEBD; 
+    border-top:3px solid #9EB384;
+    border-bottom:3px solid #9EB384;
+    transition: 0.3s;
+  
+}
+
+.card_decoracao{
+    display: flex;
+    gap: 6rem;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.decoracao_esquerda{
+    width: 25rem ;
+    height: 25rem;
+    box-sizing: border-box;
+}
+
+.principal_imagem{
+    width: 15rem;
+    border-radius: 50%;
+    height: 15rem;
+    border: 5px dotted  #788766;
+   
+}
+
+.decoracao_direita{
+    width: 25rem ;
+    height: 25rem;
+    box-sizing: border-box;
+}
+
+.principal_titulo{
+    margin-top: 4rem;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 3.5rem;
+    color: #788766;
+}
+
+
+.principal_apresentacao{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+
+.principal_texto{
+    margin:0 4rem;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.7rem;
+    color: #576249;
+    text-align: center;
+}
+
+.container_projetos{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-top: 6rem;
+    
+}
+.carrossel_projetos{
+    width: 40%;
+    background-color: #9EB384;
+    height: 30rem;
+}
+
+.projetos_descricao{
+     width: 40%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     gap: 2rem;
+}
+     
+.projetos_texto{
+    margin: 0 6rem;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    font-size: 1.1rem;
+    color: #576249;
+}
+
+.projetos_titulo{
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    font-size: 1.2;
+    color: #3c4432;
+}
+
+
+.rodape{
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+    gap: 3rem;
+}
+
+.link_imagem{
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+@media screen and (max-width:1250px){
+
+.principal_imagem{
+    width: 10rem;
+    border-radius: 50%;
+    height: 10rem;
+    border: 5px dotted  #788766;}
+   
+
+    .decoracao_esquerda{
+    width: 12rem ;
+    height: 12rem;}
+
+    .decoracao_direita{
+    width: 12rem ;
+    height: 12rem;}
+}
+@media screen and (max-width:750px){
+
+    .principal_imagem{
+        width: 10rem;
+        border-radius: 50%;
+        height: 10rem;
+        border: 5px dotted  #788766;}
+       
+    
+    .decoracao_esquerda{
+        width: 9rem ;
+        height: 9rem;
+        display: none;}
+    
+    .decoracao_direita{
+        width: 9rem ;
+        height: 9rem;
+        display: none;}
+
+    .lista_nav {
+        display: flex; 
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-top: 1.7rem;
+        align-items: center;
+        gap: 1.5rem;}
+
+    .principal_titulo{
+        margin-top: 4rem;
+        font-family: 'Cormorant Garamond', serif;
+        font-size: 2rem;
+        color: #788766;
+        text-align: center;}
+        
+    .container_projetos{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        margin-top: 6rem;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;}
+
+    .projetos_texto{
+        margin: 0 1rem;
+        font-family: 'Playfair Display', serif;
+        text-align: center;
+        font-size: 1.1rem;}
+        
+
+    .carrossel_projetos{
+        width: 80%;
+        background-color: #9EB384;
+        height: 30rem;}
+
+
+    .projetos_descricao{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 2rem;}
+
+    .principal_texto{
+        margin:0 2rem;
+        font-family: 'Cormorant Garamond', serif;
+        font-size: 1rem;
+        text-align: center;}
+
+    .projetos_texto{
+        margin: 0 6rem;
+        font-family: 'Playfair Display', serif;
+        text-align: center;
+        font-size: 1.1rem;}
+        
+}
+    
